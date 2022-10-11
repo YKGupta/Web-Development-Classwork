@@ -28,6 +28,12 @@ p
     color: yellow;
 }
 
+/* Accessing id 'Test' */
+#Test
+{
+    color: green;
+}
+
 /* Accessing class 'Demo' */
 .Demo
 {
