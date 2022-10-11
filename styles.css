@@ -1,0 +1,35 @@
+/* Accessing Body */
+body
+{
+    background-color: #212121;
+}
+
+/* Accessing Head 1 */
+h1
+{
+    color: #919191;
+}
+
+/* Accessing Paragraph  */
+p
+{
+    color: blueviolet;
+}
+
+/* Accessing id 'Heading 1' */
+#Heading_1
+{
+    color: red;
+}
+
+/* Accessing id 'Heading 6' */
+#Heading_6
+{
+    color: yellow;
+}
+
+/* Accessing class 'Demo' */
+.Demo
+{
+    color: cyan;
+}
