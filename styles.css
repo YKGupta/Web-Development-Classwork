@@ -39,3 +39,17 @@ p
 {
     color: cyan;
 }
+
+.img_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Video
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
