@@ -1,0 +1,29 @@
+#root
+{
+    background-color: #202124;
+}
+
+.header_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header_container > p, .header_container > a
+{
+    color: white;
+    margin-left: 10px;
+}
+
+#user_icon
+{
+    /* mask-image: url(circle\ mask.png);    */
+}
+
+.body_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
