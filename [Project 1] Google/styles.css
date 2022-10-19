@@ -10,20 +10,44 @@
     justify-content: end;
 }
 
-.header_container > p, .header_container > a
+.header_container > p
 {
     color: white;
-    margin-left: 10px;
+    margin-left: 13px;
+    font-family: Google Sans;
+    font-size: 14px;
 }
 
-#user_icon
+.header_container > a
 {
-    /* mask-image: url(circle\ mask.png);    */
+    margin-left: 25px;
 }
 
 .body_container
 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+.body_container > img
+{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+#inputbox
+{
+    height: 40px;
+    border-radius: 25px;
+    background-color: #202124;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #5F6368;
+    color: white;
+}
+
+@font-face {
+    font-family: Google Sans;
+    src: url(ProductSans-Light.ttf);
 }
