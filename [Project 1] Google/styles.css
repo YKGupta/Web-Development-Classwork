@@ -10,14 +10,6 @@
     justify-content: end;
 }
 
-.header_container > p
-{
-    color: white;
-    margin-left: 13px;
-    font-family: Google Sans;
-    font-size: 14px;
-}
-
 .header_container > a
 {
     margin-left: 25px;
@@ -33,18 +25,57 @@
 .body_container > img
 {
     margin-top: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 
-#inputbox
+.search_bar
 {
-    height: 40px;
-    border-radius: 25px;
-    background-color: #202124;
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color: #5F6368;
+    margin: 0 auto;
+    width: 575px;
+    height: 47px;
+    border-radius: 30px;
+    border: 1px solid #5F6368;
+    display: flex;
+    justify-content: center;
+}
+
+.search_bar:hover, .search_bar .inputbox:hover
+{
+    background-color: #303134;
+    outline: none;
+    align-items: center;
+    
+}
+
+.inputbox
+{
+    height: 30px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
     color: white;
+    outline: none;
+    margin-top: 14px;
+    background-color: #202124;
+}
+
+#Gmail, #Images
+{
+    color: white;
+    margin-left: 13px;
+    font-family: Google Sans;
+    font-size: 14px;
+}
+
+#Gmail:link, #Images:link
+{
+    text-decoration: none;
+    display: inline-block;
+}
+
+#Gmail:hover, #Images:hover
+{
+    text-decoration: underline;
 }
 
 @font-face {
