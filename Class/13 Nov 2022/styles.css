@@ -1,0 +1,24 @@
+table{
+    /* border: 1px solid black; */
+    background-color: lightslategray;
+}
+
+.Serial{
+    padding-right: 10px;
+    background-color: lightgreen;
+}
+
+.Title{
+    padding-right: 600px;
+    background-color: lightblue;
+}
+
+.Page{
+    padding-right: 20px;
+    background-color: lightpink;
+}
+
+.Remarks{
+    padding-right: 250px;
+    background-color: aquamarine;
+}
