@@ -1,0 +1,64 @@
+body{
+    background-color: #111111;
+    color:whitesmoke;
+}
+
+.Login, .Index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login > p, .Index > p{
+    font-size: 40px;
+    stroke:whitesmoke;
+    text-decoration: underline;
+}
+
+::placeholder{
+    color: black;
+    opacity: .8;
+}
+
+.Login > input, .Index > input{
+    color: black;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+.Login > input:hover, .Index > input:hover{
+    background-color: lightgreen;
+}
+
+#email, #title{
+    width: 400px;
+}
+
+#submit, #reset{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    background-color:lightgreen;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+#submit:hover, #reset:hover{
+    background-color: green;
+    color: white;
+}
+
+#line{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+.Index > div, .Index > button{
+    margin-top: 20px;
+}
