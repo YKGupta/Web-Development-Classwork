@@ -1,0 +1,312 @@
+body{
+    background-color: rgb(216, 216, 216);
+    font-family: arialRounded;
+    line-height: 20px;
+}
+
+.Header_Container{
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#name_label{
+    width: 120px;
+}
+
+#password_label{
+    width: 100px;
+}
+
+#name_label, #password_label{
+    height: 30px;
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name_label > label, #password_label > label{
+    color: whitesmoke;
+}
+
+.Logo > p{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.Login_Panel{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.Login_Panel > form{
+    display: flex;
+}
+
+.Login_Panel > form > input, .Login_Panel > form > p{
+    margin-left: 10px;
+}
+
+.Login_Panel > form > input{
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.Login_Panel > form > input:hover{
+    border-color: #FF0000;
+}
+
+.Login_Panel > form > button{
+    height: 30px;
+    width: 90px;
+    background-color: #ff1d1d;
+    border-radius: 7px;
+    border: 0px;
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+.Login_Panel > form > button:hover{
+    background-color: #d10000;
+}
+
+.Tabs_Container, .Top_Bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Tabs_Container > button{
+    background-color: #ff1d1d;
+    color: whitesmoke;
+    border-radius: 7px;
+    border: 0px;
+    font-size: 17px;
+    width: 19%;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Tabs_Container > button:hover{
+    background-color: #d10000;
+}
+
+.Find_Donar_Panel{
+    width: 50%;
+    height: 50vh;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#donor_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 200px;
+    height: 45px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.Find_Donar_Panel > form{
+    margin-top: 30px;
+}
+
+/* Find a Donar */
+#donor_p > p{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* A full selection ie label + select (both divs are within it) */
+.Find_Donar_Panel > form > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* The div for labels */
+.Labels{
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 7px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+/* The div for selects */
+.Selects{
+    height: 30px;
+    display: flex;
+}
+
+.Selects > select{
+    border-radius: 7px;
+    padding-left: 5px;
+}
+
+/* The label of select */
+.Labels > label{
+    font-size: 20px;
+}
+
+/* The select tags */
+.Find_Donar_Panel > form > div > div > select{
+    width: 500px;
+}
+
+/* The search button */
+.Find_Donar_Panel > form > div > button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.Find_Donar_Panel > form > div > button:hover{
+    border-color: black;
+}
+
+.Middle_Bar{
+    height: 625px;
+    margin-top: 40px;
+}
+
+#donoation_process{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#donoation_process > p{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.process{
+    background-image: url(https://www.kindpng.com/picc/m/1-17007_blood-donation-transparent-images-png-blood-donation-transparent.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+    margin-top: 10px;
+    border: 1px solid #FF0000;
+    border-radius: 7px;
+    height: 580px;
+    padding-left: 10px;
+}
+
+.process > h2, .process > p{
+    color: black;
+}
+
+.Bottom_Bar{
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom_bar_text{
+    width: 270px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: black;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom_bar_text > p{
+    color: whitesmoke;
+}
+
+#bottom_bar_form{
+    margin-top: 10px;
+    height: 30px;
+}
+
+#bottom_bar_form > form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#search_input{
+    padding-left: 5px;
+    width: 90%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+#search_input:hover{
+    border-color: #FF0000;
+}
+
+#bottom_bar_form > form > button{
+    height: 30px;
+    width: 100px;
+    background-color: #ff1d1d;
+    color: whitesmoke;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+#bottom_bar_form > form > button:hover{
+    background-color: #d10000;
+}
+
+.Footer_Container > button{
+    width: 12%;
+    height: 40px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #ff1d1d;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.Footer_Container > button:hover{
+    background-color: #d10000;
+}
+
+@font-face {
+    font-family: arialRounded;
+    src: url(ARLRDBD.TTF);
+}
