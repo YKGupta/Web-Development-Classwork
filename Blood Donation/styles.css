@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(216, 216, 216);
+    background-color: whitesmoke;
     font-family: arialRounded;
     line-height: 20px;
 }
@@ -41,7 +41,10 @@ body{
     width: 100%;
     height: 84px;
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
+    background-image: url(Heart\ Beat\ Line\ Long.png);
+    background-position: right;
+    background-size: contain;
 }
 
 .Login_Panel > form{
@@ -102,11 +105,16 @@ body{
 
 .Find_Donar_Panel{
     width: 50%;
-    height: 50vh;
+    height: 65vh;
     margin-right: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 7px;
+    border: 1px solid red;
+    background-image: url(https://www.seekpng.com/png/detail/21-214042_for-developers-blood-clipart-blood-donation-png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #donor_p{
@@ -287,7 +295,7 @@ body{
     background-color: #d10000;
 }
 
-.Footer_Container > button{
+.Footer_Container > a > button{
     width: 12%;
     height: 40px;
     border: 0px;
@@ -297,7 +305,7 @@ body{
     font-size: 17px;
 }
 
-.Footer_Container > button:hover{
+.Footer_Container > a > button:hover{
     background-color: #d10000;
 }
 
